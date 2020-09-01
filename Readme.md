@@ -1,12 +1,12 @@
-# One node SDDC 
-Make sure your AWS account is linked to ORG
-- run Cloud Formation template if not
+# Terraform SDDC
+Make sure your AWS account is linked to your ORG
+- run VMC Cloud Formation template if not
 
 
 ## Variables
 Some variables need to be defined before we start. 
 
-Use `deploy-lab-copy.sh` to set the proper credentials in `deploy-lab.sh` 
+Set the proper credentials in `deploy-lab.sh` 
 ```
 deploy-lab.sh
 ```
@@ -30,7 +30,7 @@ p1/main/variables.tf
   
  AWS public keys: 
   
-  We are deploying a TKG EC2 as our CLI - make sure the AWS public key has 400 permissions and it's coming from the SAME account you deployed the AWS infrastructure.
+  We are deploying an EC2 as our Terraform host for Phase3 - make sure the AWS public key has 400 permissions and it's coming from the SAME account you deployed the AWS infrastructure.
   
  #### 2 - Terraform Phase 2 (NSXT)
 ```
@@ -43,14 +43,13 @@ p2/main/variables.tf
 ```text
 source deploy-lab.sh
 ```
-1 - Confirm ORG and AWS parameters
  
-2 - (p1) SDDC deployment
+1 - (p1) SDDC deployment
  - outputs are printed
  > pause (press Enter or ^c)
  
-3 - (p2) NSXT 
+2 - (p2) NSXT 
  - FW rules
  > pause (press Enter or ^c)
  
-
+3- Copy files to EC2
