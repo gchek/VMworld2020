@@ -24,7 +24,7 @@ deploy-lab.sh
 ```
 p1/main/variables.tf
 ```
- - `variable "AWS_region"     {default = "us-east-1"}`
+ - `variable "AWS_region"     {default = "us-west-2"}`
 
   
   
