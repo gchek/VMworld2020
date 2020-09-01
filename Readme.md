@@ -15,7 +15,7 @@ deploy-lab.sh
  - API Token
     -   Your API Token
  - AWS Account
-    -   SET EMEA Account: `614055364343`
+    -   SET EMEA Account: `6140xxxxxxxx`
  - AWS Access Key
 
  - AWS Secret Key
