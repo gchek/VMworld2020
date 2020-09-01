@@ -1,4 +1,4 @@
-# Terraform SDDC
+# Terraform multi-phase / multi-providers 
 Make sure your AWS account is linked to your ORG
 - run VMC Cloud Formation template if not
 
