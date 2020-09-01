@@ -27,11 +27,6 @@ variable "my_org_id"    {}
 variable "AWS_region"   {default = "us-west-2"}
 variable "key_pair"     {default = "set-emea-oregon" }
 
-variable "DB_name"      {default = "PhotoAppDB"}
-variable "DB_user"      {default = "admin"}
-variable "DB_pass"      {default = "VMware1!"}
-
-
 /*================
 Subnets IP ranges
 =================*/
