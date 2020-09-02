@@ -11,9 +11,6 @@ variable "vpc201_cidr"      {}
 variable "Subnet10-vpc201"  {}
 variable "Subnet20-vpc201"  {}
 variable "region"         {}
-variable "DB_name"        {}
-variable "DB_user"        {}
-variable "DB_pass"        {}
 
 /*================
 VPC
