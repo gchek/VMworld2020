@@ -26,9 +26,6 @@ module "VPCs" {
   vpc201_cidr             = var.My_subnets["VPC201"]
   Subnet10-vpc201         = var.My_subnets["Subnet10-vpc201"]
   Subnet20-vpc201         = var.My_subnets["Subnet20-vpc201"]
-  DB_name                 = var.DB_name
-  DB_user                 = var.DB_user
-  DB_pass                 = var.DB_pass
   region                  = var.AWS_region
 }
 
